@@ -1,0 +1,8 @@
+Could not add user: kollefyrendkwith email:kollefyrendk@kollerups.dk. ERROR: User name in use
+Could not update member_id: 1432 with start and end date. ERROR: Unknown column '$uRegDate' in 'field list' SQL=UPDATE a28ko_osemsc_member_view
+SET start_date = $uRegDate
+	, expired_date = $end_date
+Could not add user: 2kollefyrendkwith email:2com_jconverter@kolelrups.dk. ERROR: User name in use
+Could not update member_id: 1433 with start and end date. ERROR: Unknown column '$uRegDate' in 'field list' SQL=UPDATE a28ko_osemsc_member_view
+SET start_date = $uRegDate
+	, expired_date = $end_date

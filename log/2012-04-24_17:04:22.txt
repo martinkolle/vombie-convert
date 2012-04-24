@@ -1,0 +1,7 @@
+Could not update member_id: 1434 with start and end date. ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''start_date' = '2012-04-22 16:08:00'
+	, 'expired_date' = ''' at line 2 SQL=UPDATE a28ko_osemsc_member_view
+SET 'start_date' = '2012-04-22 16:08:00'
+	, 'expired_date' = ''Could not update member_id: 1435 with start and end date. ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''start_date' = '2012-04-22 16:08:29'
+	, 'expired_date' = ''' at line 2 SQL=UPDATE a28ko_osemsc_member_view
+SET 'start_date' = '2012-04-22 16:08:29'
+	, 'expired_date' = ''

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fields>
+		<fieldset
+			name="wordpress_database"
+			label="COM_VOMBIE_WPRDPRESS_CONVERTER_DATABASE">
+
+			<field 
+				type="text" 
+				name="host_wordpress" 
+				label="COM_VOMBIE_WPRDPRESS_CONVERTER_HOSTNAME"
+				description="COM_VOMBIE_WPRDPRESS_CONVERTER_HOSTNAME_DESC"
+			/>
+			<field 
+				name="databasename_wordpress" 
+				type="text" 
+				default="300"
+				label="COM_VOMBIE_WPRDPRESS_CONVERTER_DATABASENAME" 
+				description="COM_VOMBIE_WPRDPRESS_CONVERTER_DATABASENAME_DESC"
+			/>
+			<field 
+				name="username_wordpress" 
+				type="text" 
+				default="root"
+				label="COM_VOMBIE_WPRDPRESS_CONVERTER_USERNAMA" 
+				description="COM_VOMBIE_WPRDPRESS_CONVERTER_USERNAME_DESC"
+			/>
+			<field 
+				name="password_wordpress" 
+				type="password" 
+				default="root"
+				label="COM_VOMBIE_WPRDPRESS_CONVERTER_PASSWORD" 
+				description="COM_VOMBIE_WPRDPRESS_CONVERTER_PASSWORD_DESC"
+			/>
+			<field 
+				name="prefix_wordpress" 
+				type="text" 
+				default="wp_"
+				label="COM_VOMBIE_WPRDPRESS_CONVERTER_PREFIX" 
+				description="COM_VOMBIE_WPRDPRESS_CONVERTER_PREFIX_DESC"
+			/>
+			<field 
+				name="backup_wordpress" 
+				type="list" 
+				default="1"
+				label="COM_VOMBIE_WPRDPRESS_CONVERTER_BACKUP" 
+				description="COM_VOMBIE_WPRDPRESS_CONVERTER_BACKUP_WORDPRESS"
+			>
+				<option value="1">COM_VOMBIEMUSIC_YES</option>
+				<option value="0">COM_VOMBIEMUSIC_NO</option>
+			</field>
+			<field 
+				name="users_wordpress" 
+				type="list" 
+				default="1"
+				label="COM_VOMBIE_WPRDPRESS_CONVERTER_USERS" 
+				description="COM_VOMBIE_WPRDPRESS_CONVERTER_USER_DESC"
+			>
+				<option value="1">COM_VOMBIEMUSIC_YES</option>
+				<option value="0">COM_VOMBIEMUSIC_NO</option>
+			</field>
+		</fieldset>
+	</fields>
+</config>
