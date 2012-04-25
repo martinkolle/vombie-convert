@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="2.5.0" method="upgrade">
+	<name>COM_VOMBIECONVERTER</name>
+	<creationDate>24-April-2012</creationDate>
+	<author>Martin Kollerup</author>
+	<authorEmail>martin.kollerup@gmail.com</authorEmail>
+	<authorUrl>http://martiinkolle.dk</authorUrl>
+	<copyright>CopyLEFT</copyright>
+	<license>GNU/GPL v.3 or never</license>
+	<version>0.1</version>
+	<description>COM_VOMBIECONVERTER_DESCRIPTION</description>
+	<administration>
+		<menu>COM_VOMBIECONVERTER</menu>
+		
+		<files folder="admin">
+			<folder>controllers</folder>
+			<folder>images</folder>
+			<folder>log</folder>
+			<folder>models</folder>
+			<folder>views</folder>
+			<filename>admin.vombieconverter.php</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<filename>vombieconverter.xml</filename>
+		</files>
+
+		<languages folder="admin">
+			<language tag="en-GB">languages/en-GB.com_jconverter.ini</language>
+		</languages>		
+	</administration>
+</install>

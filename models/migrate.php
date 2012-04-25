@@ -5,7 +5,7 @@ defined('_JEXEC') or die();
 
 jimport('joomla.application.component.model');
 
-class JConverterModelMigrate extends JModel
+class VombieConverterModelMigrate extends JModel
 {
 	var $_config = null;
 	var $_externalDB = null;

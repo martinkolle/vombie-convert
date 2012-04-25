@@ -2,7 +2,7 @@
 
 jimport('joomla.application.component.controller');
 
-class JConverterController extends JController {
+class VombieConverterController extends JController {
 
 	function display() {
 

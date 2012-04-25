@@ -1,9 +1,9 @@
 <?php
 
-// Check to ensure this file is included in Joomla!
+//Joomla or die!
 defined('_JEXEC') or die();
 
-class JConverterControllerMigrate extends JConverterController
+class VombieConverterControllerMigrate extends JConverterController
 {
 
 	/**
@@ -14,16 +14,11 @@ class JConverterControllerMigrate extends JConverterController
 	{
 		parent::__construct();
 		parent::registerDefaultTask('migrate');
-
-		// Register Extra tasks
-		//$this->registerTask( 'add'  , 	'edit' );
 	}
-
 
     function migrate(){
 
 		$model =& $this->getModel('migrate');
-
 		JRequest::setVar( 'view', 'migrate' );
 		parent::display();
     }
@@ -34,10 +29,7 @@ class JConverterControllerMigrate extends JConverterController
     function display() {
 
         JRequest::setVar( 'view', 'migrate' );
-
         parent::display();
     }
-
-
 }
 ?>
